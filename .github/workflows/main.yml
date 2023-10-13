@@ -2,7 +2,7 @@ name: Python application test with Github Actions
 on: [push]
 jobs:
   build:
-    runs-on: ec2-use
+    runs-on: ec2-user
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
